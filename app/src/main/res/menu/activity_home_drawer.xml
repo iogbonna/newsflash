@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:icon="@drawable/worldwide"
+            android:id="@+id/nav_top_stories"
+            android:title="World" />
+        <item
+            android:icon="@drawable/ic_directions_bike_black_24dp"
+            android:id="@+id/nav_sports"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_science"
+            android:icon="@drawable/microscope_big"
+            android:title="Science" />
+        <item
+            android:icon="@drawable/clapperoard_big"
+            android:id="@+id/nav_entertainment"
+            android:title="Entertainment" />
+        <item
+            android:icon="@drawable/caliber_big"
+            android:id="@+id/nav_technology"
+            android:title="Technology" />
+        <item
+            android:icon="@drawable/health_big"
+            android:id="@+id/nav_health"
+            android:title="Health" />
+
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/favourites">
+        <item
+            android:icon="@drawable/ic_sd_storage_black_24dp"
+            android:id="@+id/nav_favourites"
+            android:title="Favourites" />
+
+
+    </group>
+
+   <!-- <group android:checkableBehavior="single" android:id="@+id/other">
+        <item
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+    </group>-->
+
+
+</menu>
